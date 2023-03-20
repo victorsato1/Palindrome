@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2b323c;
+    width: 100%;
+}
+header{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 45px;
+}
+.item h2{
+    font-size: 55px;
+    color: lime;
+    letter-spacing: 3px;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+.item p{
+    font-size: 29px;
+    color: white;
+    letter-spacing: 2.5px;
+    font-style: italic;
+    font-weight: bold;
+}
+#sato{
+    text-align:center;
+    font-size: 32.5px;
+}
+label{
+    display: block;
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+}
+#me{
+    background: linear-gradient(to left, grey,black);
+    color: white;
+    height: 35px;
+    width: 350px;
+    border-radius: 15px;
+    border-color: rgb(215, 237, 255);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 7px;
+}
+#btn{
+    background-color: #101010;
+color: white;
+font-weight: 600;
+text-decoration: none;
+padding: 5px 8px 5px 8px;
+border-radius: 10px;
+border: none;
+font-size: 19px;
+cursor: pointer;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+#btn:hover{
+    color: black; 
+    background: linear-gradient(to right, lime,rgb(137, 114, 114));
+}
+#response{
+    color: white;
+   font-weight: 500;
+   font-style: oblique;
+   text-transform: capitalize;
+    font-size: 35px;
+}
+#all{
+    margin-top: 11.5%;
+}
+
+/*--------Guess----------*/
+.typed-text{
+    font-weight: normal;
+    color: orangered;
+}
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: aliceblue;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+.cursor.typing{
+    animation: none;
+}
+@keyframes blink {
+    0% {background-color: aliceblue;}
+    49% {background-color: aliceblue;}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: aliceblue;}
+}
